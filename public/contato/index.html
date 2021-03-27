@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contato</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body >
+  <table>
+    <h1>Contato</h1>
+    <form method='post' action='/contato'>
+      <tr>
+        <td colspan=2>Nome <br> <input type=text name='nome' size=100%></td>
+      </tr>
+
+      <tr>
+        <td colspan=2>Email <br> <input type=text name='email' size=100%></td>
+      </tr>
+
+    
+      <tr>
+        <td>
+          <label for="story">Motivo do Contato:</label><br>
+          <textarea id="story" name="msg" rows="3" cols="100"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan=1>
+          <center><input class="button" type="submit" value="Enviar"> <input class="button" type="reset" value="Apagar">
+          </center>
+        </td>
+      </tr>
+    </form>
+  </table>
+</body>
+
+</html>
